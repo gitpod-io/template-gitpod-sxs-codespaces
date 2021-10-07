@@ -1,0 +1,8 @@
+{
+    "name": "https://github.com/gitpod-io/template-gitpod-sxs-codespaces",
+    "build": {
+      "dockerfile": "../.gitpod.Dockerfile",
+    },
+    "postCreateCommand": "make all",
+    "remoteUser": "gitpod"
+}

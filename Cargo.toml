@@ -1,0 +1,7 @@
+[package]
+name = "hello"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies.clap]
+git = "https://github.com/clap-rs/clap.git"

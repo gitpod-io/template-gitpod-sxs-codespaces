@@ -1,0 +1,12 @@
+# https://www.gitpod.io/docs/references/gitpod-yml
+
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: make
+    command: make run
+
+vscode:
+  extensions:
+    - rust-lang.rust
